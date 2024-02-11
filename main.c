@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 stack_t *getnewnode(int x)
 {
 	stack_t *newnode = (stack_t *)malloc(sizeof(stack_t));
+
 	if (newnode == NULL)
 		err(4);
 	newnode->n = x;

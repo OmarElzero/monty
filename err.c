@@ -3,7 +3,7 @@
 /**
  * err - Printing an appropiate error messages determined by their error code.
  * @error_code: The error codes are the following:
- * (1) => The user is  does not give any file or more than one file to the program.
+ * (1) => The user is  does not give any file or more one file to the program.
  * (2) => The file is not provided is not a file that can be opened or read.
  * (3) => The file does not provide contains an invalid instruction.
  * (4) => When the program is unable to malloc more memory.
